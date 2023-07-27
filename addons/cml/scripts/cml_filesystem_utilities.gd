@@ -70,7 +70,7 @@ static func _get_files_single_level( target_directory: String, list: PackedStrin
 	
 	var dir := DirAccess.open( target_directory )
 	if not dir:
-		print_debug( "Folder %s doens't exist." % target_directory )
+		print_debug( "Folder %s doesn't exist." % target_directory )
 		return
 	
 	dir.include_hidden = false
